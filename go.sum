@@ -1,5 +1,5 @@
-github.com/ZaytsveDmitriy/ole v1.2.10-0.20211129175951-9109f844cd41 h1:wayHKdXUFfzpYJvXvI5F2f/hep6GxusLs/18JT+1jQ8=
-github.com/ZaytsveDmitriy/ole v1.2.10-0.20211129175951-9109f844cd41/go.mod h1:FlllU5jbbWn55uZ61NhJnr++FhhubHgd5YwRVV7kbFI=
+github.com/ZaytsveDmitriy/ole v1.2.10-0.20211229131119-728e93ed627e h1:L9Cquufq0+L8e5C+NDl1PKyRnuQtF69ypn1eyaSVuRQ=
+github.com/ZaytsveDmitriy/ole v1.2.10-0.20211229131119-728e93ed627e/go.mod h1:FlllU5jbbWn55uZ61NhJnr++FhhubHgd5YwRVV7kbFI=
 golang.org/x/sys v0.0.0-20190916202348-b4ddaad3f8a3/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/sys v0.0.0-20210510120138-977fb7262007 h1:gG67DSER+11cZvqIMb8S8bt0vZtiN6xWYARwirrOSfE=
 golang.org/x/sys v0.0.0-20210510120138-977fb7262007/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
