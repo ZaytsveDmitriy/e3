@@ -23,6 +23,17 @@ func (j *Job) NewSheet() *Sheet {
 	return &sheet
 }
 
+func (j *Job) NewDevice() *Device {
+	obj, err := j.CallMethod("CreateDeviceObject")
+	if err != nil {
+		log.Errorw("Can't create new device")
+	}
+
+	dev := Device{object{obj.ToIDispatch()}}
+
+	return &dev
+}
+
 // AvailableLanguages ...
 func (j *Job) AvailableLanguages() (languages []string, cnt int32) {
 	languages, cnt = getAnyArray[string](j, "GetAvailableLanguages")
@@ -144,7 +155,7 @@ func (j *Job) SaveAs(fileName string) (result int32) {
 
 // SelectedSymbolIds ...
 func (j *Job) SelectedSymbolIds() (IDs []int32, cnt int32) {
-	IDs, cnt = getAnyArray[int32](&j.object, "GetSelectedSymbolIds")
+	IDs, cnt = getAnyArray[int32](j, "GetSelectedSymbolIds")
 
 	return IDs, cnt
 }
